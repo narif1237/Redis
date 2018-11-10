@@ -10,7 +10,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 public class RedisApplication {
 
 	@Bean
-	JedisConnectionFactory jedisConnectionFactory() {
+	ConnectionFactory jedisConnectionFactory() {
 		return new JedisConnectionFactory();
 	}
 
